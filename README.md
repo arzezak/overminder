@@ -1,31 +1,34 @@
 # Overminder
 
-Welcome to your new gem! In this directory, you'll find the files you need to
-be able to package up your Ruby library into a gem. Put your Ruby code in the
-file `lib/overminder`. To experiment with that code, run `bin/console` for an
-interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Overmind rake tasks.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'overminder'
+gem "overminder"
 ```
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install overminder
+```
+$ bundle
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Starting the development server with a Procfile:
+
+```
+$ rails overminder:start
+```
+
+Connecting to the web process (e.g., for debugging purposes):
+
+```
+$ rails overminder:connect
+```
 
 ## Development
 
