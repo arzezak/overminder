@@ -1,6 +1,6 @@
 # Overminder
 
-Overmind rake tasks.
+Overmind rake tasks for Ruby on Rails projects.
 
 ## Installation
 
@@ -18,13 +18,13 @@ $ bundle
 
 ## Usage
 
-Starting the development server with a Procfile:
+Start the development server with a Procfile:
 
 ```
 $ rails overminder:start
 ```
 
-Connecting to the web process (e.g., for debugging purposes):
+Connect to web process (e.g., for debugging purposes):
 
 ```
 $ rails overminder:connect
