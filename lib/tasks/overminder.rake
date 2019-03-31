@@ -14,4 +14,14 @@ namespace :overminder do
       sh "overmind connect web"
     end
   end
+
+  desc "Generate Procfile.dev"
+  task :generate do
+    contents = <<~FILE
+      web: ./bin/rails server -b 0.0.0.0
+      webpacker: ./bin/webpack-dev-server
+    FILE
+
+    File.write("Procfile.dev", contents)
+  end
 end

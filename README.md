@@ -30,6 +30,12 @@ Connect to web process (e.g., for debugging purposes):
 $ rails overminder:connect
 ```
 
+Generate a Procfile:
+
+```
+$ rails overminder:generate
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run
