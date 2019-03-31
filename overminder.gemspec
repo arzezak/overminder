@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ariel Rzezak"]
   spec.email         = ["arzezak@gmail.com"]
   spec.summary       = "Overmind rake tasks."
-  spec.description   = "Overmind rake tasks for Rails projects."
+  spec.description   = "Overmind rake tasks for Ruby on Rails projects."
   spec.homepage      = "https://github.com/arzezak/overminder"
   spec.license       = "MIT"
 
